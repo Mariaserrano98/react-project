@@ -1,27 +1,36 @@
-.footer-container{
-    
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      
-      .icons-uno,
-      .icons-dos,
-      .icons-tres,
-      .icons-cuatro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding-top: 20em;
-        
-      }
-      button{
-        background-color: transparent;
-        color: #CD9452;
-      }
-    
-      
-      
-      
-    
+.footer-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.icons-uno,
+.icons-dos,
+.icons-tres,
+.icons-cuatro {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding-top: 4em; /* Ajusta el padding según tus necesidades */
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: #CD9452;
+  margin-bottom: 1em; /* Ajusta el margen según tus necesidades */
+}
+
+h3 {
+  font-size: 1.2em; /* Ajusta el tamaño de fuente según tus necesidades */
+  margin-bottom: 1em; /* Ajusta el margen según tus necesidades */
+}
+p{
+  color: darkgrey;
+font-size: 1.5rem;
+}
+
+.linea {
+margin-top: 4em;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}

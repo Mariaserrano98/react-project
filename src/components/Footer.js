@@ -30,6 +30,11 @@ const Footer = () => {
           <p>Lorem ipsum dolor sit</p>
           <p>amet, consectetur amet</p>
         </div>
+        <div className="linea"> 
+        </div>
+        <div className="navigation">
+          <img src="/img/icono2" alt="" />
+          </div>
       </div>
     </footer>
   );
