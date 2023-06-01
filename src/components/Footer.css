@@ -14,7 +14,7 @@
 }
 
 button {
-  background-color: transparent;
+  background-color:transparent;
   color: #CD9452;
   margin-bottom: 1em; /* Ajusta el margen según tus necesidades */
 }
@@ -24,8 +24,11 @@ h3 {
   margin-bottom: 1em; /* Ajusta el margen según tus necesidades */
 }
 p{
-  color: darkgrey;
-font-size: 1.5rem;
+  color: #9E9295;
+font-size: 1.2rem;
+text-align: center;
+padding-left: 2em;
+padding-right: 2em;
 }
 
 .linea {
@@ -33,4 +36,88 @@ margin-top: 4em;
   width: 100%;
   height: 1px;
   background-color: #ccc;
+}
+.icons-uno p,
+.icons-dos p,
+.icons-tres p,
+.icons-cuatro p {
+  margin-bottom: 10px; /* Puedes ajustar el valor según tus necesidades */
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.imagen-icono {
+  display: flex;
+  align-items: center;
+}
+
+.imagen-icono img {
+  width: 40px;
+  /* align-items: center; */
+  margin-left: 10rem;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 2rem;
+  margin-top: 3.7rem;
+  margin-right:  3rem;
+}
+
+.lista-navegacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-navegacion ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-navegacion li {
+margin-left: 1rem;
+margin-bottom: 1rem;
+color: #9E9295;
+}
+.lista-navegacion li:hover {
+  color: #CD9452;
+}
+
+.parrafo-final  p {
+font-size: 1rem;
+}
+.parrafo-final  span {
+  text-decoration: underline; 
+  font-weight: bold;
+  color: #565556;
+  margin-bottom: 1rem;
+}
+
+.parrafo-final  span a{
+color: #565556;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-container > div[class^="icons-"] {
+    width: 50%;
+    float: left;
+  }
+
+  .footer-container > div[class^="icons-"]:nth-child(odd) {
+    float: left;
+  }
+
+  .footer-container > div[class^="icons-"]:nth-child(even) {
+    float: right;
+  }
+
 }
