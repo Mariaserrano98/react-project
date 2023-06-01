@@ -109,21 +109,44 @@ color: #565556;
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer-container > div[class^="icons-"] {
     width: 50%;
-    float: left;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .icons-uno,
+  .icons-dos,
+  .icons-tres,
+  .icons-cuatro {
+    width: 50%; /* Ajusta el ancho para que haya dos elementos por fila */
+    padding-top: 4em;
+    text-align: center;
+  }
+  .lista-navegacion {
+    display: flex !important;
+    align-items: center;
+  }
+  
+  .lista-navegacion ul {
+    list-style: none;
+    display: flex!important;
+    flex-direction: row !important;
+  }
+  
+  .lista-navegacion li {
+    margin-right: 1rem;
+  }
+  
+  .parrafo-final {
+    display: flex !important;
+    align-items: center;
+    /* margin-left: auto; */
+  }
+  
+  .parrafo-final p {
+    margin-right: 1rem;
   }
 
-  .footer-container > div[class^="icons-"]:nth-child(odd) {
-    float: left;
-  }
-
-  .footer-container > div[class^="icons-"]:nth-child(even) {
-    float: right;
-  }
-  .footer-container .icons-uno p {
-    text-align: left;
-  }
-
-  .footer-container .icons-uno p:nth-child(2) {
-    margin-left: 2.5rem;
-  }
 }

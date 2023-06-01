@@ -5,13 +5,13 @@ import {
   faEnvelope,
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
-import "./Footer.css";
+import classes from "./Footer.module.css";
 import FooterImg from "../img/icono2.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-container">
-        <div className="icons-uno">
+      <div className={classes["footer-container"]}>
+        <div className={classes["icons-uno"]}>
           <button className="btn btn-primary">
             {" "}
             <FontAwesomeIcon icon={faLocationDot} size="2x" />{" "}
@@ -20,7 +20,7 @@ const Footer = () => {
           <p>401 Broadway, 24th Floor New York, NY</p>
           <p>10013</p>
         </div>
-        <div className="icons-dos">
+        <div className={classes["icons-dos"]}>
           <button className="btn btn-primary">
             {" "}
             <FontAwesomeIcon icon={faPhoneVolume} size="2x" />{" "}
@@ -29,7 +29,7 @@ const Footer = () => {
           <p>Phone: 212.334.9753</p>
           <p>Fax: 212.334.9760</p>
         </div>
-        <div className="icons-tres">
+        <div className={classes["icons-tres"]}>
           <button className="btn btn-primary">
             {" "}
             <FontAwesomeIcon icon={faEnvelope} size="2x" />{" "}
@@ -38,7 +38,7 @@ const Footer = () => {
           <p>info@yourdomain.com</p>
           <p>info@yourdomain.com</p>
         </div>
-        <div className="icons-cuatro">
+        <div className={classes["icons-cuatro"]}>
           <button className="btn btn-primary">
             {" "}
             <FontAwesomeIcon icon={faGlobe} size="2x" />{" "}
@@ -47,21 +47,21 @@ const Footer = () => {
           <p>Lorem ipsum is simply dummy text</p>
           <p>printing</p>
         </div>
-        <div className="linea"></div>
-        <div className="navigation">
-          <div className="titulo">
-            <div className="imagen-icono">
+        <div className={classes.linea}></div>
+        <div className={classes.navigation}>
+          <div className={classes.titulo}>
+            <div className={classes["imagen-icono"]}>
               <img src={FooterImg} alt="icono" />
               <h2>LITHO</h2>
             </div>
-            <div className="lista-navegacion">
+            <div className={classes["lista-navegacion"]}>
               <ul>
                 <li>ABOUT US</li>
                 <li>MENU</li>
                 <li>GALLERY</li>
                 <li>CONTACT US</li>
               </ul>
-              <div className="parrafo-final">
+              <div className={classes["parrafo-final"]}>
               <p>
                 © 2023 LITHO IS PROUDLY POWERED BY <span> <a href="https://codespaceacademy.com/">CODE SPACE</a></span>
               </p>
