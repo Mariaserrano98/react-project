@@ -119,5 +119,11 @@ color: #565556;
   .footer-container > div[class^="icons-"]:nth-child(even) {
     float: right;
   }
+  .footer-container .icons-uno p {
+    text-align: left;
+  }
 
+  .footer-container .icons-uno p:nth-child(2) {
+    margin-left: 2.5rem;
+  }
 }
