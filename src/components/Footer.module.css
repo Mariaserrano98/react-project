@@ -233,10 +233,10 @@ display:inline
   .lineUp {
    display: inline;
   }
-  
   .navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   
   .imagen-icono {
@@ -246,53 +246,34 @@ display:inline
   
   .imagen-icono img {
     width: 40px;
-    margin-left: 10rem;
-    transition: all 0.3s ease-in-out;
-    margin-top: 1rem;
+    margin-right: 1rem;
   }
   
   h2 {
     font-size: 2em;
     margin-bottom: 2rem;
-    margin-top: 3.7rem;
-    margin-right: 3rem;
+    margin-right: -1rem;
   }
   
   .lista-navegacion {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
   }
   
   .lista-navegacion ul {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
   }
   
   .lista-navegacion li {
     margin-left: 1rem;
-    margin-bottom: 1rem;
-    color: #9e9295;
+    margin-bottom: 0;
+    color: #9E9295;
   }
   
-  .lista-navegacion li:hover {
-    color: #cd9452;
-  }
   
-  .parrafo-final p {
-    font-size: 1rem;
-  }
-  
-  .parrafo-final span {
-    text-decoration: underline;
-    font-weight: bold;
-    color: #565556;
-    margin-bottom: 1rem;
-  }
-  
-  .parrafo-final span a {
-    color: #565556;
-  }}
+ }
