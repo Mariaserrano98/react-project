@@ -180,6 +180,119 @@ display:inline
   /* Media queries vista escritorio */
 
 @media (min-width: 1025px) {
- 
-
-}
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  .linea{
+    margin-top: 12em;
+  }
+  .icons-uno,
+  .icons-dos,
+  .icons-tres,
+  .icons-cuatro {
+    width: 25%;
+    padding-top: 9em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 6em; */
+  }
+  
+  button {
+    background-color: transparent;
+    color: #cd9452;
+    margin-bottom: 3em;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    color: #9e9295;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  .icons-uno p,
+  .icons-dos p,
+  .icons-tres p,
+  .icons-cuatro p {
+    margin-bottom: 10px;
+  }
+  .lineBreak{
+    display:block;
+    padding-top: 0.6em;
+  }
+  
+  .lineUp {
+   display: inline;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagen-icono {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagen-icono img {
+    width: 40px;
+    margin-left: 10rem;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 2rem;
+    margin-top: 3.7rem;
+    margin-right: 3rem;
+  }
+  
+  .lista-navegacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .lista-navegacion ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .lista-navegacion li {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #9e9295;
+  }
+  
+  .lista-navegacion li:hover {
+    color: #cd9452;
+  }
+  
+  .parrafo-final p {
+    font-size: 1rem;
+  }
+  
+  .parrafo-final span {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #565556;
+    margin-bottom: 1rem;
+  }
+  
+  .parrafo-final span a {
+    color: #565556;
+  }}

@@ -44,7 +44,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faGlobe} size="2x" />{" "}
           </button>
           <h3>CAFE EVENT</h3>
-          <p>Lorem ipsum is simply dummy text</p>
+          <p>Lorem ipsum is simply <span className=""></span>dummy text</p>
           <p>printing</p>
         </div>
         <div className={classes.linea}></div>
