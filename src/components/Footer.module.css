@@ -43,7 +43,10 @@ margin-top: 4em;
 .icons-cuatro p {
   margin-bottom: 10px; /* Puedes ajustar el valor según tus necesidades */
 }
-
+.lineUp{
+  display:block;
+  margin-top: 1rem;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -105,15 +108,15 @@ font-size: 1rem;
 .parrafo-final  span a{
 color: #565556;
 }
-
+ /* Media queries para tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .footer-container > div[class^="icons-"] {
+  .footer-container > div[class^="icons-"] { /* Selecciona todos los elementos cuya clase comience con "icons-" */ 
     width: 50%;
   }
   .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex; /* Permite que los elementos se envuelvan en múltiples líneas */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: center; /* Centra los elementos horizontalmente */
   }
   
   .icons-uno,
@@ -124,29 +127,59 @@ color: #565556;
     padding-top: 4em;
     text-align: center;
   }
+  /* Le añado al parrafo un span al texto que quiero modificar solo y le he añadido este nombre para moverlo hacia abajo en la vista tablet */
+.lineBreak{
+  display: block;
+ padding-top: 1rem;
+}
+/* Este también es para el mismo parrafo pero para moverlo hacia arriba en la vista tablet */
+.lineUp{
+display:inline
+}
+.linea {
+  background-color: #ccc;
+  /* height: 1px; */
+  border: none;
+  border-top: 0rem solid #ccc; 
+  }
+
+  /*Parte de abajo lista de navegacion*/
   .lista-navegacion {
-    display: flex !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Cambia el valor a "row" para que los elementos se muestren en horizontal */
     align-items: center;
   }
   
   .lista-navegacion ul {
     list-style: none;
-    display: flex!important;
-    flex-direction: row !important;
+    display: flex;
+    flex-direction: row; /* Cambia el valor a "row" para que los elementos se muestren en horizontal */
+    align-items: center;
+   padding-right: 4rem;
   }
   
   .lista-navegacion li {
-    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0; /* Elimina el margen inferior para que los elementos estén alineados horizontalmente */
+    color: #9E9295;
   }
   
   .parrafo-final {
-    display: flex !important;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    /* margin-left: auto; */
   }
-  
-  .parrafo-final p {
-    margin-right: 1rem;
+  .imagen-icono{
+   margin-left: 11rem;
+   padding-bottom: 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
   }
+}
+  /* Media queries vista escritorio */
+
+@media (min-width: 1025px) {
+ 
 
 }

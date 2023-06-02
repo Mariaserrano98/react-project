@@ -17,8 +17,8 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLocationDot} size="2x" />{" "}
           </button>
           <h3>CONTACT US</h3>
-          <p>401 Broadway, 24th Floor New York, NY</p>
-          <p>10013</p>
+          <p className={classes.oneParrafo}>401 Broadway, 24th Floor <span className={classes.lineBreak}>New York, NY <span className={classes.lineUp}>10013.</span></span> </p>
+          
         </div>
         <div className={classes["icons-dos"]}>
           <button className="btn btn-primary">
