@@ -233,10 +233,8 @@ display:inline
   .lineUp {
    display: inline;
   }
-  .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .titulo {
+    position: relative;
   }
   
   .imagen-icono {
@@ -252,28 +250,45 @@ display:inline
   h2 {
     font-size: 2em;
     margin-bottom: 2rem;
-    margin-right: -1rem;
+    margin-right: 1rem;
   }
   
   .lista-navegacion {
+    position: absolute;
+    top: 3rem;
+    left: 0;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
   }
   
   .lista-navegacion ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
   }
   
   .lista-navegacion li {
-    margin-left: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     color: #9E9295;
   }
+  
+  .parrafo-final {
+    position: absolute;
+    top: 9rem;
+    right: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  
+  
+  
+  
+  
+  
   
   
  }
