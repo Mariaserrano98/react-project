@@ -252,37 +252,14 @@ display:inline
     margin-bottom: 2rem;
     margin-right: 1rem;
   }
-  
-  .lista-navegacion {
-    position: absolute;
-    top: 3rem;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  .lista-navegacion ul{
+    display: flex !important;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4rem; */
   }
-  
-  .lista-navegacion ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .lista-navegacion li {
-    margin-bottom: 0.5rem;
-    color: #9E9295;
-  }
-  
-  .parrafo-final {
-    position: absolute;
-    top: 9rem;
-    right: 0;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
+}
   
   
   
@@ -291,4 +268,4 @@ display:inline
   
   
   
- }
+ 
